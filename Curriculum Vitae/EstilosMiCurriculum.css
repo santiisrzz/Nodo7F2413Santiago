@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fondo general */
+    background-image: url('Fondos/fondogeneral1.png'); /* Imagen de fondo general */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card, .cv {
+    background: rgba(255, 255, 255, 0.8); /* Fondo transparente para la tarjeta */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    display: none;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.8); /* Fondo transparente */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.background {
+    padding: 20px;
+    background: white; /* Fondo blanco para el contenido */
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #777;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    margin: 15px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icon {
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.cv {
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Fondo semitransparente para el contenido del CV */
+    background-image: url('Fondos/fondocurriculum.jpg'); /* Imagen de fondo del CV */
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.cv h1, .cv h2, .cv p, .cv ul, .cv li {
+    transition: color 0.3s;
+}
+
+.cv h1:hover, .cv h2:hover, .cv p:hover, .cv ul:hover, .cv li:hover {
+    color: #333; /* Tono más oscuro */
+}
+
+.cv h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.cv p, .cv ul {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.cv ul {
+    padding-left: 20px;
+}
+
+.cv ul li {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .card {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .cv {
+        display: block;
+    }
+}
