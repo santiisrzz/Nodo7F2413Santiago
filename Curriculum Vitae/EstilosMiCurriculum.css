@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Fondo general */
-    background-image: url('Fondos/fondogeneral1.png'); /* Imagen de fondo general */
+    background-color: #f0f0f0; 
+    background-image: url('Fondos/fondogeneral1.png'); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -12,7 +12,7 @@ body {
 }
 
 .card, .cv {
-    background: rgba(255, 255, 255, 0.8); /* Fondo transparente para la tarjeta */
+    background: rgba(255, 255, 255, 0.8); 
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -24,7 +24,7 @@ body {
 }
 
 .card {
-    background: rgba(255, 255, 255, 0.8); /* Fondo transparente */
+    background: rgba(255, 255, 255, 0.8); 
 }
 
 .card:hover {
@@ -34,7 +34,7 @@ body {
 
 .background {
     padding: 20px;
-    background: white; /* Fondo blanco para el contenido */
+    background: white; 
     border-radius: 15px;
 }
 
@@ -81,8 +81,8 @@ p {
     max-width: 600px;
     text-align: left;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.9); /* Fondo semitransparente para el contenido del CV */
-    background-image: url('Fondos/fondocurriculum.jpg'); /* Imagen de fondo del CV */
+    background: rgba(255, 255, 255, 0.9); 
+    background-image: url('Fondos/fondocurriculum.jpg'); 
     background-size: cover;
     background-position: center;
     border-radius: 15px;
@@ -93,7 +93,7 @@ p {
 }
 
 .cv h1:hover, .cv h2:hover, .cv p:hover, .cv ul:hover, .cv li:hover {
-    color: #333; /* Tono más oscuro */
+    color: #333; 
 }
 
 .cv h1 {
